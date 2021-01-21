@@ -1,0 +1,31 @@
+html {
+  background-image: url("https://media.istockphoto.com/vectors/70s-1970-abstract-vector-stock-retro-lines-background-vector-id1178382327?k=6&m=1178382327&s=612x612&w=0&h=PZFSptm7P2-2ZN4eTN2y_iY5OwqogJ4dO4FmSqgwh8I=");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: crimson;
+  font-family: "Lucida Console", monospace;
+}
+h1, p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+p {
+  text-indent: 20px;
+  color: orange;
+  font-family: "Lucida Console", monospace;
+}
+#content {
+  border: 4px dotted darkred;
+  border-radius: 25px;
+  background-color: Tomato;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
