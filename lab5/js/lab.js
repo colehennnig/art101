@@ -19,26 +19,26 @@ var colorO = "Black";
 var yearO = "2010"
 var ownItO = false;
 
-document.writeln("Cole's car make: " + makeC + "<br>");
-document.writeln("Cole's car model: " + modelC + "<br>");
-document.writeln("Cole's car color: " + colorC + "<br>");
-document.writeln("Cole's car year: " + yearC + "<br>");
-document.writeln("Cole's car age: " + (currentYear - yearC) + "<br>");
-document.writeln("Does Cole own it?: ");
+document.write("Cole's car make: " + makeC + "<br>");
+document.write("Cole's car model: " + modelC + "<br>");
+document.write("Cole's car color: " + colorC + "<br>");
+document.write("Cole's car year: " + yearC + "<br>");
+document.write("Cole's car age: " + (currentYear - yearC) + "<br>");
+document.write("Does Cole own it?: ");
 if (ownItC) {
-  document.writeln("Ye<br>");
+  document.write("Ye<br>");
 } else {
-  document.writeln("No<br>");
+  document.write("No<br>");
 }
 
-document.writeln("<br>Olivia's car make: " + makeO + "<br>");
-document.writeln("Olivia's car model: " + modelO + "<br>");
-document.writeln("Olivia's car color: " + colorO + "<br>");
-document.writeln("Olivia's car year: " + yearO + "<br>");
-document.writeln("Olivia's car age: " + (currentYear - yearO) + "<br>");
-document.writeln("Does Olivia own it?: ");
+document.write("<br>Olivia's car make: " + makeO + "<br>");
+document.write("Olivia's car model: " + modelO + "<br>");
+document.write("Olivia's car color: " + colorO + "<br>");
+document.write("Olivia's car year: " + yearO + "<br>");
+document.write("Olivia's car age: " + (currentYear - yearO) + "<br>");
+document.write("Does Olivia own it?: ");
 if (ownItO) {
-  document.writeln("Yes<br>");
+  document.write("Yes<br>");
 } else {
-  document.writeln("Nope<br>");
+  document.write("Nope<br>");
 }
