@@ -95,3 +95,7 @@ img {
   grid-column: 3;
   grid-row: 2;
 }
+.eight {
+  grid-column: 8;
+  grid-row: 2;
+}
