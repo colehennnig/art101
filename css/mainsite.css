@@ -99,3 +99,7 @@ img {
   grid-column: 4;
   grid-row: 2;
 }
+.nine {
+  grid-column: 1;
+  grid-row: 3;
+}
