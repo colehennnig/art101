@@ -5,5 +5,7 @@
  * (c) Copyright by Blub Corp.
  **/
 function print() {
-  document.getElementById("output").innerHTML = sort(document.getElementById("user-name").value);
+  var name = document.createElement("div");
+  name.innerHTML = document.getElementById("user-name").value.split("").sort().join("");
+  document.getElementById("output").appendChild(name);
 }
