@@ -123,3 +123,7 @@ img {
   grid-column: 2;
   grid-row: 4;
 }
+.fifteen {
+  grid-column: 3;
+  grid-row: 4;
+}
